@@ -1,0 +1,11 @@
+Link : https://www.codechef.com/problems/REACH_HOME
+
+Code :
+
+T = int(input())
+for i in range(T):
+    X, Y = map(int, input().split())
+    if (X*5) >= Y:
+        print('YES')
+    else:
+        print('NO')
